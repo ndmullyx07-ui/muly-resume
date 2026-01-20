@@ -325,57 +325,64 @@
             </div>
         </div> <!-- / container -->
     </section>
-    <!-- FOOTER SECTION -->
+   <!-- FOOTER SECTION -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Design by: <a href="http://www.izzydoesizzy.com" target=
-                    "_blank">Iskender Piyale-Sheard</a><br>
-                    <a href="http://creativecommons.org/licenses/by/4.0/"
-                    target="_blank"><i class="fa fa-creative-commons"></i>
-                    Attribution 4.0 License</a></p>
-                </div>
+      <!-- KIRI -->
+      <div class="col-md-4">
+        <p>
+          © <span id="yearNow"></span> fiklya<br>
+          Portfolio Website
+        </p>
+      </div>
+
+      <!-- TENGAH -->
+      <div class="col-md-4 text-center">
+        <p>
+          Made with <i class="fa fa-heart"></i> by
+          <a href="https://github.com/ndmullyx07-ui" target="_blank">fiklya</a>
+        </p>
+      </div>
+
+      <!-- KANAN (SOSMED) -->
+      <div class="col-md-4">
+        <div class="social-footer">
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/ndillyz._?igsh=ODN5MHBhc3BwYW8x" target="_blank" title="Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/ndmullyx07-ui" target="_blank" title="GitHub">
+            <i class="fa fa-github"></i>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:irsadulfickry771@gmail.com" title="Email">
+            <i class="fa fa-envelope"></i>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/6283894386690" target="_blank" title="WhatsApp">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+
+          <!-- LinkedIn (kalau kamu sudah punya link asli, bisa ganti nanti) -->
+      <a href="https://www.linkedin.com/in/fik4-lya-84437839b" target="_blank" title="LinkedIn">
+  <i class="fa fa-linkedin"></i>
+</a>
 
 
-                <div class="col-md-4 text-center">
-                    <p>Made with <i class="fa fa-heart"></i> by <a href=
-                    "http://www.clearcarer.ca" target="_blank"></a> <a href=
-                    "http://www.clearcareer.ca" target=
-                    "_blank">ClearCareer</a></p>
-                </div>
+        </div><!-- /social footer -->
+      </div><!-- /col-md-4 -->
 
+    </div><!-- /row -->
+  </div><!-- /container -->
+</footer>
 
-                <div class="col-md-4">
-                    <div class="social-footer">
-                        <a href="http://www.twitter.com/izzydoesizzy" target=
-                        "_blank"><i class="fa fa-twitter"></i></a> <a href=
-                        "http://www.instagram.com/izzydoesizzy" target=
-                        "_blank"><i class="fa fa-instagram"></i></a> <a href=
-                        "https://ca.linkedin.com/in/ipiyale" target=
-                        "_blank"><i class="fa fa-linkedin"></i></a>  <a href=
-                        "http://www.youtube.com/user/izzydoesizzy" target=
-                        "_blank"><i class="fa fa-youtube"></i></a> <a href=
-                        "http://www.github.com/izzydoesizzy" target=
-                        "_blank"><i class="fa fa-github"></i></a>
-                    </div> <!-- /social footer -->
-                </div> <!-- /col-md-4 -->
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </footer>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src=
-    "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-    </script> 
-    <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-    </script> 
-    <script src="js/bootstrap.min.js">
-    </script> 
-    <script src="js/scripts.js">
-    </script>
-</body>
-</html>
+<script>
+  document.getElementById("yearNow").innerText = new Date().getFullYear();
+</script>
