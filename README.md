@@ -2,9 +2,9 @@
 
 Portfolio website milik **fiklya**.
 
-🌐 Live Website: https://ndmullyx07-ui.github.io/muly-resume/
-🌐 Live Website: https://muly-iota.vercel.app
-
+## Live Website
+- GitHub Pages: https://ndmullyx07-ui.github.io/muly-resume/
+- Vercel: https://muly-iota.vercel.app
 
 ## Kontak
 - Instagram: https://www.instagram.com/ndillyz._?igsh=ODN5MHBhc3BwYW8x
