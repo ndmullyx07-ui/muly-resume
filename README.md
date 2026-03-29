@@ -7,7 +7,7 @@ Portfolio website milik **mulya**.
 - Vercel: https://muly-iota.vercel.app
 
 ## Kontak
-- Instagram:(https://www.instagram.com/andlly4_/#)
+- Instagram:(https://www.instagram.com/andlly4_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 - LinkedIn: https://www.linkedin.com/in/fik4-lya-84437839b
 - GitHub: https://github.com/ndmullyx07-ui
 - Email: ndmullyx04@gmail.com
